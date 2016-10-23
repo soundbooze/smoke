@@ -1,11 +1,12 @@
 OpenBSD 6.0
 x86_64 i386
 sndio
-                     _        
+<pre>                     _        
  ___ _ __ ___   ___ | | _____ 
 / __| '_ ` _ \ / _ \| |/ / _ \
 \__ \ | | | | | (_) |   <  __/
 |___/_| |_| |_|\___/|_|\_\___|
+</pre>
 
  - Ultra lightweight, tiny, robust and extremely secure Voice Over IP (VOIP) sitting on top of libtls with added Blowfish encryption for OpenBSD and sndio only.
 
@@ -13,6 +14,7 @@ sndio
 
 usage: smoke [-p playback device] [-c capture device] [-x key.pem] [-y cert.pem] [-S server] [-P port]
 
+<pre>
 -----------------------------------------------------
 
 Device format (playback / capture):
@@ -29,7 +31,9 @@ server      Server IP Address (IPv4 only)
 port        Port number
 
 -----------------------------------------------------
+</pre>
 
+<pre>
 Generate PEM files (key and cert) with generatePEM.sh (optional)
 You will be asked for a password each time you are trying to communicate, both users require the same password.
 
@@ -81,3 +85,4 @@ SHARED LIBRARY DEPENDENCIES:
   /usr/lib/libssl.so.39.0
   /usr/libexec/ld.so
 
+</pre>
