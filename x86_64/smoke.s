@@ -234,9 +234,9 @@ main:
 	movl	$1, (%rsp)
 	movq	%rax, %r9
 	movq	%rdx, %r8
-	movl	$44100, %ecx
+	movl	$9600, %ecx
 	movl	$2, %edx
-	movl	$16, %esi
+	movl	$8, %esi
 	movl	$0, %edi
 	call	sio_init@PLT
 	movq	-80(%rbp), %rdx
@@ -276,9 +276,9 @@ main:
 	movl	$0, (%rsp)
 	movq	%rax, %r9
 	movq	%rdx, %r8
-	movl	$44100, %ecx
+	movl	$9600, %ecx
 	movl	$2, %edx
-	movl	$16, %esi
+	movl	$8, %esi
 	movl	$0, %edi
 	call	sio_init@PLT
 	leaq	-32(%rbp), %rsi
