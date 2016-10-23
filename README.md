@@ -8,7 +8,7 @@ sndio
 |___/_| |_| |_|\___/|_|\_\___|
 </pre>
 
- - Ultra lightweight, tiny, robust and extremely secure Voice Over IP (VOIP) sitting on top of libtls with added Blowfish encryption for OpenBSD and sndio only.
+ - Ultra lightweight, tiny, robust and extremely secure Voice Over TLS sitting on top of libtls with added Blowfish encryption for OpenBSD and sndio only.
 
 > rcctl sndiod start (please refer to OpenBSD FAQ: Multimedia for configuring audio devices).
 
