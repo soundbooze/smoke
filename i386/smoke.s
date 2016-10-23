@@ -246,9 +246,9 @@ main:
 	movl	%eax, 20(%esp)
 	movl	-32(%ebp), %eax
 	movl	%eax, 16(%esp)
-	movl	$44100, 12(%esp)
+	movl	$9600, 12(%esp)
 	movl	$2, 8(%esp)
-	movl	$16, 4(%esp)
+	movl	$8, 4(%esp)
 	movl	$0, (%esp)
 	call	sio_init@PLT
 	movl	-52(%ebp), %eax
@@ -298,9 +298,9 @@ main:
 	movl	%eax, 20(%esp)
 	movl	-32(%ebp), %eax
 	movl	%eax, 16(%esp)
-	movl	$44100, 12(%esp)
+	movl	$9600, 12(%esp)
 	movl	$2, 8(%esp)
-	movl	$16, 4(%esp)
+	movl	$8, 4(%esp)
 	movl	$0, (%esp)
 	call	sio_init@PLT
 	leal	-28(%ebp), %eax
