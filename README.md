@@ -12,7 +12,9 @@ sndio
 
 > rcctl sndiod start (please refer to OpenBSD FAQ: Multimedia for configuring audio devices).
 
+```
 usage: smoke [-p playback device] [-c capture device] [-x key.pem] [-y cert.pem] [-S server] [-P port]
+```
 
 <pre>
 -----------------------------------------------------
