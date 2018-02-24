@@ -1,3 +1,5 @@
+<b>Absolutely awesome for paranoid pair!</b>
+
 OpenBSD 6.0
 x86_64 i386
 sndio
